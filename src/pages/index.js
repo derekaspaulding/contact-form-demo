@@ -23,7 +23,7 @@ export default () => (
         errors.email = 'Valid Email Required'
       }
       if(!values.message) {
-        errors.email = 'Message Required'
+        errors.message = 'Message Required'
       }
       return errors;
     }}
